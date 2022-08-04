@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<title>GX 3000 | Manual do hardware</title>
+        <link href="../res/img/favicon.ico" rel="shortcut icon"/>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <link href="../res/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="../res/css/manual.css" rel="stylesheet" type="text/css"/>
+        <script src="../res/js/jquery.min.js"></script>
+        <script src="../res/js/bootstrap.min.js"></script>
+        <script src="../res/js/animatescroll.js"></script>
+        <script src="../res/js/manual.js"></script>
+    </head>
+    <body data-spy="scroll" data-target=".scrollspy">
+
+        <div class="overlay"></div>
+
+        <div class="header no-print">
+            <nav class="nav-header">
+                <div class="logo">
+                    <a href="../home.html">
+                        <figure>
+                            <img class="nav-img" src="../res/img/intelbras_marca.svg">
+                        </figure>
+                    </a>
+                </div>
+                <div class="iconMenu">
+                    <a id="toggleMenu">
+                        <img src="../res/img/menu.svg">
+                    </a>
+                </div>
+                <div style="float: right; top: 16px; position: relative;">
+                    <select onchange="location = this.value;">
+                        <option value="../pt-BR/manualHardware_pt-BR.html" selected>Português</option>
+                        <option value="../es/manualHardware_es.html">Español</option>
+                        <!-- <option value="../en/manualHardware_en.html">English</option> -->
+                    </select>
+                    <a href="#pdf" class="tooltip-left" data-tooltip="Clique para saber como exportar este manual para o formato PDF.">
+                        <img src="../res/img/pdf.svg">
+                    </a>
+                </div>
+                <ul style="list-style-type: none;">
+                    <li id="op1" class="nav-option bg1">
+                        <a href="manualHardware_pt-BR.html">
+                            <div class="ico-option">
+                                <?xml version="1.0" encoding="utf-8"?>
+                                <svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="40px" x="0px" y="0px" viewBox="0 0 88 88" xml:space="preserve">
+                                    <g>
+                                        <path fill="#00A94D" d="M44,1C20.3,1,1,20.3,1,44c0,23.7,19.3,43,43,43c23.8,0,43-19.3,43-43C87,20.3,67.7,1,44,1z M44,83.4
+                                            C22.2,83.4,4.6,65.8,4.6,44C4.6,22.2,22.2,4.6,44,4.6c21.8,0,39.4,17.6,39.4,39.4C83.4,65.8,65.8,83.4,44,83.4z"/>
+                                        <path fill="#00A94D" d="M60.5,27.3v33.4H27.5V27.3H60.5 M60.9,25.3H27.1c-0.9,0-1.6,0.7-1.6,1.6v34.3c0,0.9,0.7,1.6,1.6,1.6h33.8
+                                            c0.9,0,1.6-0.7,1.6-1.6V26.9C62.5,26,61.8,25.3,60.9,25.3L60.9,25.3z"/>
+                                        <path fill="#00A94D" d="M49.8,37.3c0.4,0,0.8,0.4,0.8,0.8v11.5c0,0.4-0.4,0.8-0.8,0.8H38.3c-0.4,0-0.8-0.4-0.8-0.8V38.1
+                                            c0-0.4,0.4-0.8,0.8-0.8H49.8 M49.8,36.5H38.3c-0.9,0-1.6,0.7-1.6,1.6v11.5c0,0.9,0.7,1.6,1.6,1.6h11.5c0.9,0,1.6-0.7,1.6-1.6V38.1
+                                            C51.4,37.2,50.7,36.5,49.8,36.5L49.8,36.5z"/>
+                                        <g>
+                                            <g>
+                                                <rect x="32.1" y="63.8" fill="#00A94D" width="2.2" height="3.6"/>
+                                            </g>
+                                            <g>
+                                                <rect x="37.5" y="63.8" fill="#00A94D" width="2.2" height="3.6"/>
+                                            </g>
+                                            <g>
+                                                <rect x="42.9" y="63.8" fill="#00A94D" width="2.2" height="3.6"/>
+                                            </g>
+                                            <g>
+                                                <rect x="48.3" y="63.8" fill="#00A94D" width="2.2" height="3.6"/>
+                                            </g>
+                                            <g>
+                                                <rect x="53.7" y="63.8" fill="#00A94D" width="2.2" height="3.6"/>
+                                            </g>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <rect x="32.1" y="20.6" fill="#00A94D" width="2.2" height="3.6"/>
+                                            </g>
+                                            <g>
+                                                <rect x="37.5" y="20.6" fill="#00A94D" width="2.2" height="3.6"/>
+                                            </g>
+                                            <g>
+                                                <rect x="42.9" y="20.6" fill="#00A94D" width="2.2" height="3.6"/>
+                                            </g>
+                                            <g>
+                                                <rect x="48.3" y="20.6" fill="#00A94D" width="2.2" height="3.6"/>
+                                            </g>
+                                            <g>
+                                                <rect x="53.7" y="20.6" fill="#00A94D" width="2.2" height="3.6"/>
+                                            </g>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <rect x="20.5" y="32.1" fill="#00A94D" width="3.6" height="2.2"/>
+                                            </g>
+                                            <g>
+                                                <rect x="20.5" y="37.5" fill="#00A94D" width="3.6" height="2.2"/>
+                                            </g>
+                                            <g>
+                                                <rect x="20.5" y="42.9" fill="#00A94D" width="3.6" height="2.2"/>
+                                            </g>
+                                            <g>
+                                                <rect x="20.5" y="48.3" fill="#00A94D" width="3.6" height="2.2"/>
+                                            </g>
+                                            <g>
+                                                <rect x="20.5" y="53.7" fill="#00A94D" width="3.6" height="2.2"/>
+                                            </g>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <rect x="63.9" y="32.1" fill="#00A94D" width="3.6" height="2.2"/>
+                                            </g>
+                                            <g>
+                                                <rect x="63.9" y="37.5" fill="#00A94D" width="3.6" height="2.2"/>
+                                            </g>
+                                            <g>
+                                                <rect x="63.9" y="42.9" fill="#00A94D" width="3.6" height="2.2"/>
+                                            </g>
+                                            <g>
+                                                <rect x="63.9" y="48.3" fill="#00A94D" width="3.6" height="2.2"/>
+                                            </g>
+                                            <g>
+                                                <rect x="63.9" y="53.7" fill="#00A94D" width="3.6" height="2.2"/>
+                                            </g>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <rect x="53.7" y="38.5" fill="#00A94D" width="2.3" height="2.2"/>
+                                            </g>
+                                            <g>
+                                                <rect x="53.7" y="42.7" fill="#00A94D" width="2.3" height="2.2"/>
+                                            </g>
+                                            <g>
+                                                <rect x="53.7" y="47" fill="#00A94D" width="2.3" height="2.2"/>
+                                            </g>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <rect x="32.2" y="38.5" fill="#00A94D" width="2.3" height="2.2"/>
+                                            </g>
+                                            <g>
+                                                <rect x="32.2" y="42.7" fill="#00A94D" width="2.3" height="2.2"/>
+                                            </g>
+                                            <g>
+                                                <rect x="32.2" y="47" fill="#00A94D" width="2.3" height="2.2"/>
+                                            </g>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <rect x="47.2" y="53.6" fill="#00A94D" width="2.2" height="2.3"/>
+                                            </g>
+                                            <g>
+                                                <rect x="43" y="53.6" fill="#00A94D" width="2.2" height="2.3"/>
+                                            </g>
+                                            <g>
+                                                <rect x="38.7" y="53.6" fill="#00A94D" width="2.2" height="2.3"/>
+                                            </g>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <rect x="47.2" y="32.1" fill="#00A94D" width="2.2" height="2.3"/>
+                                            </g>
+                                            <g>
+                                                <rect x="43" y="32.1" fill="#00A94D" width="2.2" height="2.3"/>
+                                            </g>
+                                            <g>
+                                                <rect x="38.7" y="32.1" fill="#00A94D" width="2.2" height="2.3"/>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <span class="title-option">
+                                Manual do hardware
+                            </span>
+                            <span class="title-option m">
+                                Hardware
+                            </span>
+                        </a>
+                    </li>
+
+                    <li id="op2" class="nav-option bg2">
+                        <a href="manualGerWeb_pt-BR.html">
+                            <div class="ico-option">
+                                <?xml version="1.0" encoding="utf-8"?>
+                                <!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                                <svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="40px" x="0px" y="0px"
+                                     viewBox="0 0 88 88" style="enable-background:new 0 0 88 88;" xml:space="preserve">
+                                    <g>
+                                        <path fill="#00A94D" d="M44,1C20.3,1,1,20.3,1,44c0,23.7,19.3,43,43,43c23.8,0,43-19.3,43-43C87,20.3,67.7,1,44,1z M44,83.4
+                                            C22.2,83.4,4.6,65.8,4.6,44C4.6,22.2,22.2,4.6,44,4.6c21.8,0,39.4,17.6,39.4,39.4C83.4,65.8,65.8,83.4,44,83.4z"/>
+                                        <path fill="#00A94D" d="M68.9,23.3H19.1c-1.9,0-3.4,1.5-3.4,3.4v34.5c0,1.9,1.5,3.4,3.4,3.4h49.9c1.9,0,3.4-1.5,3.4-3.4V26.7
+                                            C72.4,24.8,70.8,23.3,68.9,23.3z M68.5,25c0.5,0,1,0.4,1,1c0,0.5-0.4,1-1,1c-0.5,0-1-0.4-1-1C67.6,25.4,68,25,68.5,25z M65,25
+                                            c0.5,0,1,0.4,1,1c0,0.5-0.4,1-1,1c-0.5,0-1-0.4-1-1C64,25.4,64.4,25,65,25z M61.4,25c0.5,0,1,0.4,1,1c0,0.5-0.4,1-1,1
+                                            c-0.5,0-1-0.4-1-1C60.4,25.4,60.9,25,61.4,25z M70.5,59.4c0,1.8-1.5,3.3-3.4,3.3H21c-1.9,0-3.4-1.5-3.4-3.3V31.8
+                                            c0-1.8,1.5-3.3,3.4-3.3H67c1.9,0,3.4,1.5,3.4,3.3V59.4z"/>
+                                        <g>
+                                            <g>
+                                                <path fill="#00A94D" d="M65.8,59.8H38.7c-1.3,0-2.4-1.1-2.4-2.4v-3.9c0-1.3,1.1-2.4,2.4-2.4h27.1c1.3,0,2.4,1.1,2.4,2.4v3.9
+                                                    C68.2,58.7,67.1,59.8,65.8,59.8z M38.7,52.3c-0.6,0-1.2,0.5-1.2,1.2v3.9c0,0.6,0.5,1.2,1.2,1.2h27.1c0.6,0,1.2-0.5,1.2-1.2v-3.9
+                                                    c0-0.6-0.5-1.2-1.2-1.2H38.7z"/>
+                                            </g>
+                                            <g>
+                                                <path fill="#00A94D" d="M65.8,48.6H38.7c-1.3,0-2.4-1.1-2.4-2.4V34.8c0-1.3,1.1-2.4,2.4-2.4h27.1c1.3,0,2.4,1.1,2.4,2.4v11.4
+                                                    C68.2,47.5,67.1,48.6,65.8,48.6z M38.7,33.6c-0.6,0-1.2,0.5-1.2,1.2v11.4c0,0.6,0.5,1.2,1.2,1.2h27.1c0.6,0,1.2-0.5,1.2-1.2V34.8
+                                                    c0-0.6-0.5-1.2-1.2-1.2H38.7z"/>
+                                            </g>
+                                            <g>
+                                                <rect x="19.9" y="33" fill="#00A94D" width="12.9" height="1.8"/>
+                                            </g>
+                                            <g>
+                                                <rect x="19.9" y="39.1" fill="#00A94D" width="12.9" height="1.8"/>
+                                            </g>
+                                            <g>
+                                                <rect x="19.9" y="51.3" fill="#00A94D" width="12.9" height="1.8"/>
+                                            </g>
+                                            <g>
+                                                <rect x="19.9" y="45.2" fill="#00A94D" width="12.9" height="1.8"/>
+                                            </g>
+                                            <g>
+                                                <rect x="19.9" y="57.3" fill="#00A94D" width="12.9" height="1.8"/>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <span class="title-option">
+                                Manual do gerenciador web
+                            </span>
+                            <span class="title-option m">
+                                Gerenciador web
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container" style="max-width: 1280px">
+            <div class="row">
+                <div class="col-md-3 scrollspy" style="top: 150px">
+                    <ul id="nav" class="nav hidden-xs hidden-sm" data-spy="affix" style="top: 150px;">
+                        <li><a href="#apresentacao">APRESENTAÇÃO</a></li>
+                        <li><a href="#cuidSeg">CUIDADOS E SEGURANÇA</a></li>
+                        <li><a href="#indice">ÍNDICE</a></li>
+                        <li><a href="#pdf">EXPORTAR PARA PDF</a></li>
+                        <li><a href="#espTec">ESPECIFICAÇÕES TÉCNICAS</a></li>
+                        <li><a href="#produto">PRODUTO</a>
+                            <ul class="nav">
+                                <li><a href="#VisaoFrontal">Visão Frontal</a></li>
+                                <li><a href="#VisaoTraseira">Visão Traseira</a></li>
+                                <li><a href="#VisaoPosterior">Visão Posterior</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li><a href="#opeBasica">OPERAÇÃO BÁSICA</a>
+                            <ul class="nav">
+                                <li><a href="#aceIntConf">Acessar o gerenciador web</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#duvFreq">DÚVIDAS FREQUENTES</a></li>
+                        <li><a href="#termoGarantia">TERMO DE GARANTIA</a></li>
+                        <li><a href="#faleCom">FALE COM A GENTE</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-9">
+                    <section id="capa" class="capa">
+                        <div class="div-logo-capa">
+                            <img src="../res/img/intelbras_marca.svg" class="logo-capa">
+                        </div>
+                        <hr class="divider">
+                        <div class="div-titulo-capa">
+                            <h1>Manual do usuário</h1>
+                            <h3>GX 3000</h3>
+                        </div>
+                    </section>
+
+                    <section id="apresentacao" class="apresentacao">
+                        <img src="../res/img/intelbras_marca.svg" id="logoIntelbras" class="logo-apresentacao">
+                        <p class="versao-manual">Versão deste manual: 1.0.0</p>
+                        <h3>Roteador 5G GX 3000</h3>
+                        <p>Parabéns, você acaba de adquirir um produto com a qualidade e segurança Intelbras.</p>
+                        <p>O GX 3000 é um equipamento com <b>5G</b>, membro da família de Access Points indoor Intelbras, com tecnologia 802.11ax de alta performance, desenvolvido para aplicações em ambientes corporativos, como empresas,
+                            hotéis e eventos.</p></p>
+                    </section>
+
+                    <section id="cuidSeg" style="border-bottom: none">
+                        <h1>Cuidados e segurança</h1>
+                        Prefira instalar seu roteador na parte central do ambiente, de preferência, em local mais alto, por exemplo, em cima de um móvel.
+                        <br>Evite um número excessivo de barreiras físicas entre os dispositivos transmissores e os receptores da rede Wi-Fi.
+                        <br>Ao adicionar novos IH 3000 a sua rede verifique se estão todos com o LED fixo, isso garante uma melhor performance da sua rede.
+                        <br>» Leia cuidadosamente todas as informações sobre o equipamento. Siga todas as informações de segurança.
+                        <br>Não deixe seu GX 3000 exposto à luz do sol ou às fontes de calor.
+                        <br>Não coloque o GX 3000 em locais fechados ou apertados.
+                        <br>Não deixe seu GX 3000 próximo do micro-ondas.
+                        <br>LGPD - Lei Geral de Proteção de Dados Pessoais: este produto faz tratamento de dados pessoais, porém a Intelbras não possui acesso aos dados a partir deste produto.
+                        <br><strong>Atenção:</strong> a eletricidade estática pode danificar os componentes eletrônicos da placa. Esse tipo de dano pode ser irreversível ou reduzir a expectativa de vida útil do dispositivo.
+                        <h1>Proteção e segurança dos dados</h1>
+                        » Observar as leis locais relativas à proteção e uso de tais dados e as regulamentações que prevalecem no país.
+                        <br>» O objetivo da legislação de proteção de dados é evitar infrações nos direitos individuais de privacidade baseadas no mau uso dos dados pessoais.
+                        <br>» LGPD - Lei Geral de Proteção de Dados Pessoais: este produto faz tratamento de dados pessoais, porém a Intelbras não possui acesso aos dados a partir deste produto. Este produto possui criptografia no armazenamento dos dados pessoais.
+                        <h1>Diretrizes que se aplicam aos funcionários da Intelbras</h1>
+                        » Os funcionários da Intelbras estão sujeitos a práticas de comércio seguro e confidencialida- de de dados sob os termos dos procedimentos de trabalho da companhia.
+                        <br>» É imperativo que as regras a seguir sejam observadas para assegurar que as provisões estatutárias relacionadas a serviços (sejam eles serviços internos ou administração e ma- nutenção remotas) sejam estritamente seguidas. Isto preserva os interesses do cliente e oferece proteção pessoal adicional.
+                        <h1>Diretrizes que controlam o tratamento de dados</h1>
+                        » Assegurar que apenas pessoas autorizadas tenham acesso aos dados de clientes.
+                        <br>» Usar as facilidades de atribuição de senhas, sem permitir qualquer exceção. Jamais informar senhas para pessoas não autorizadas.
+                        <br>» Assegurar que nenhuma pessoa não autorizada tenha como processar (armazenar, alterar, transmitir, desabilitar ou apagar) ou usar dados de clientes.
+                        <br>» Evitar que pessoas não autorizadas tenham acesso aos meios de dados, por exemplo, discos de backup ou impressões de protocolos.
+                        <br>» Assegurar que os meios de dados que não são mais necessários sejam completamente destru- ídos e que documentos não sejam armazenados ou deixados em locais geralmente acessíveis.
+                        <br>» O trabalho em conjunto com o cliente gera confiança.
+                        <h1>Uso indevido do usuário e invasão de hackers</h1>
+                        » As senhas de acesso às informações do produto permitem o alcance e alteração de qualquer facilidade, como o acesso externo ao sistema da empresa para obtenção de dados e realiza- ções de chamadas, portanto, é de suma importância que as senhas sejam disponibilizadas apenas àqueles que tenham autorização para uso, sob o risco de uso indevido.
+                        <br>» O produto possui configurações de segurança que podem ser habilitadas, e que serão abor- dadas neste manual, todavia, é imprescindível que o usuário garanta a segurança da rede na qual o produto está instalado, haja vista que o fabricante não se responsabiliza pela invasão do produto via ataques de hackers e crackers.
+                        
+                    </section>
+
+                    <section id="indice" style="border-bottom: none;">
+                        <h1>Índice</h1>
+                        <p><strong><a href="#espTec"> Especificações técnicas</a></strong></p>
+
+                        <p><strong><a href="#produto">Produto</a></strong></p>
+
+                        <div style="padding-left: 20px; padding-bottom: 20px">
+                            <br><a href="#VisaoFrontal">Visão frontal</a>
+                            <br><a href="#VisaoTraseira">Visão traseira</a>
+                            <br><a href="#VisaoPosterior">Visão posterior</a>
+                            <br><a href="#leds">Leds</a>
+                            <!-- <br><a href="#expGSM">Expansão GSM/3G</a> -->
+                            <!-- <br><a href="#antTroExpGSM">Antena para o GW 208 3G e Expansão GSM/3G</a> -->
+                            <!-- <br><a href="#instalacao">Instalação do GW 208 3G</a> -->
+                        </div>
+
+                        <p><strong><a href="#opeBasica">Operação básica</a></strong></p>
+                        <div style="padding-left: 20px; padding-bottom: 20px">
+                            <a href="#aceIntConf">Acessar o gerenciador</a>
+                            <!-- <br><a href="#reaCha">Realizar chamadas</a> --><!-- Escondido em 25/06/2019 pois isso se refere a UnniTI e não ao GW 208 3G -->
+                        </div>
+
+                        <p><strong><a href="#duvFreq">Dúvidas frequentes</a></strong></p>
+                        <p><strong><a href="#termoGarantia">Termo de garantia</a></strong></p>
+                    </section>
+
+                    <section id="pdf">
+                        <h1>Exportar para PDF</h1>
+                        <p>Para exportar este manual para o formato de arquivo PDF, utilize o recurso de impressão que navegadores como Google Chrome<sup>®</sup> e Mozilla Firefox<sup>®</sup> possuem. Para acessá-lo, pressione as teclas <em>CTRL + P</em> ou <a href="#" onClick="window.print()">clique aqui</a>. Se preferir, utilize o menu do navegador, acessando a aba <em>Imprimir</em>, que geralmente fica no canto superior direito da tela. Na tela que será aberta, execute os passos a seguir, de acordo com o navegador:</p>
+                        <p><em>Google Chrome</em><sup>®</sup>: na tela de impressão, no campo <em>Destino</em>, clique em <em>Alterar</em>, selecione a opção <em>Salvar como PDF</em> na seção <em>Destinos locais</em> e clique em <em>Salvar</em>. Será aberta a tela do sistema operacional solicitando que seja definido o nome e onde deverá ser salvo o arquivo.</p>
+                        <p><em>Mozilla Firefox</em><sup>®</sup>: na tela de impressão, clique em <em>Imprimir</em>, na aba <em>Geral</em>, selecione a opção <em>Imprimir para arquivo</em>, no campo <em>Arquivo</em>, defina o nome e o local onde deverá ser salvo o arquivo, selecione <em>PDF</em> como formato de saída e clique em <em>Imprimir</em>.</p>
+                    </section>
+
+                    <section id="espTec" style="border-bottom: none">
+                        <h1>Especificações técnicas</h1>
+
+                        <table class="tabelaSpecs">
+                            <thead>
+                                <tr>
+                                  <th colspan="2">Chipset</th>
+                                  <th colspan="2">Qualcomm IPQ5018 +QCN6102 + SDX62</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td colspan="2">Memória flash</td>
+                                  <td colspan="2">DDR3 512 MB</td>
+                                </tr>
+                                <tr>
+                                  <td colspan="2">Capacidade de usuários</td>
+                                  <td colspan="2">128+ usuários conectados</td>
+                                </tr>
+                                <tr>
+                                  <td colspan="2">Tipo</td>
+                                  <td colspan="2">Indoor</td>
+                                </tr>
+                                <tr>
+                                  <td rowspan="11">Faixa de frequência de trabalho</td>
+                                  <td rowspan="3">Frequência</td>
+                                  <td>5G (NR)</td>
+                                  <td>SA - n1/3/7/28/3/40/66/78<br>NSA - n1/3/7/28/40/66/78</td>
+                                </tr>
+                                <tr>
+                                  <td>4G (LTE)</td>
+                                  <td>B1/3/5/7/8/28/38/40/42/66</td>
+                                </tr>
+                                <tr>
+                                  <td>3G (WCDMA)</td>
+                                  <td>B1/5/8</td>
+                                </tr>
+                                <tr>
+                                  <td rowspan="2">Antena</td>
+                                  <td>Interna</td>
+                                  <td>x4</td>
+                                </tr>
+                                <tr>
+                                  <td>Ganho</td>
+                                  <td>3dBi (nominal)<br>3 - 5.5dBi (banda n78)</td>
+                                </tr>
+                                <tr>
+                                  <td rowspan="3">Nível de potência</td>
+                                  <td>5G (NR)</td>
+                                  <td>Classe 2 (26dBm±1.5dB) na banda n78<br>Classe 3 (23dBm±1.5dB) nas outras bandas</td>
+                                </tr>
+                                <tr>
+                                  <td>4G (LTE)</td>
+                                  <td>Classe 3 (23dBm±1.5dB) para as bandas LTE</td>
+                                </tr>
+                                <tr>
+                                  <td>3G (WCDMA)</td>
+                                  <td>Classe 3 (23.5dBm±1.5dB) para as bandas WCDMA</td>
+                                </tr>
+                                <tr>
+                                  <td rowspan="3">Taxa de dados</td>
+                                  <td>5G (NR)</td>
+                                  <td>NR Sub6 NSA: Download até 3.47Gbps MIMO 4x4<br>	     Upload até 660Mbps <br>NR Sub6 SA: Download até 2.47Gbps MIMO 4x4<br>	    Upload até 900MbpsMIMO 2x2 (Uplink banda n78)</td>
+                                </tr>
+                                <tr>
+                                  <td>4G (LTE)</td>
+                                  <td>Download: 1.6 Gbps (Cat 19) MIMO 4X4<br>Upload: 211 Mbps (Cat 18)</td>
+                                </tr>
+                                <tr>
+                                  <td>3G (WCDMA)</td>
+                                  <td>Download: 42 Mbps<br>Upload: 5.76 Mbps</td>
+                                </tr>
+                                <tr>
+                                  <td rowspan="9">WLAN</td>
+                                  <td rowspan="4">Wi-Fi</td>
+                                  <td>Chipset</td>
+                                  <td>Qualcomm IPQ5018 +QCN6102</td>
+                                </tr>
+                                <tr>
+                                  <td>Frequência</td>
+                                  <td>2.4 GHz (+/-20dBm por canal), 5GHz (+-22.5dBm por canal)</td>
+                                </tr>
+                                <tr>
+                                  <td>Protocolo</td>
+                                  <td>802.11b/g/n 2x2 MIMO<br>802.11/ac/ax 2x2 MU-MIMO</td>
+                                </tr>
+                                <tr>
+                                  <td>Antena</td>
+                                  <td>Interna 4 single band 4~5dBi para cada antena</td>
+                                </tr>
+                                <tr>
+                                  <td rowspan="5">Taxa de dados</td>
+                                  <td>802.11b</td>
+                                  <td>Até 11 Mbps</td>
+                                </tr>
+                                <tr>
+                                  <td>802.11g</td>
+                                  <td>Até 54 Mbps</td>
+                                </tr>
+                                <tr>
+                                  <td>802.11n</td>
+                                  <td>Até 300 Mbps</td>
+                                </tr>
+                                <tr>
+                                  <td>802.11ac</td>
+                                  <td>Até 867 Mbps</td>
+                                </tr>
+                                <tr>
+                                  <td>802.11ax</td>
+                                  <td>Até 1201 Mbps (80 MHz) ou;<br>Até 2041 Mbps (160 MHz)</td>
+                                </tr>
+                                <tr>
+                                  <td rowspan="38">Funções</td>
+                                  <td rowspan="5">Interface</td>
+                                  <td>LAN/WAN</td>
+                                  <td>2 Portas Giga: 1 x WAN + 1 x LAN</td>
+                                </tr>
+                                <tr>
+                                  <td>FXS</td>
+                                  <td>VoLTE / VoNR</td>
+                                </tr>
+                                <tr>
+                                  <td>USIM</td>
+                                  <td>Single, 4FF Nano SIM</td>
+                                </tr>
+                                <tr>
+                                  <td>eSim</td>
+                                  <td>Sim incorporado</td>
+                                </tr>
+                                <tr>
+                                  <td>Alimentação</td>
+                                  <td>12V / 3A</td>
+                                </tr>
+                                <tr>
+                                  <td rowspan="4">LED</td>
+                                  <td>Energia</td>
+                                  <td>Indicador do status de alimentação</td>
+                                </tr>
+                                <tr>
+                                  <td>WAAN</td>
+                                  <td>5G / 4G / Indicador de status de rede</td>
+                                </tr>
+                                <tr>
+                                  <td>Wi-Fi</td>
+                                  <td>Indicador de status de conexão com a Internet</td>
+                                </tr>
+                                <tr>
+                                  <td>Voz</td>
+                                  <td>Indicador de status do serviço de voz</td>
+                                </tr>
+                                <tr>
+                                  <td rowspan="2">Botão</td>
+                                  <td>WPS (Botão EasyMesh)</td>
+                                  <td>Ativa WPS / Ativa a descoberta EasyMesh</td>
+                                </tr>
+                                <tr>
+                                  <td>Reset</td>
+                                  <td>Restaura as configurações de fábrica</td>
+                                </tr>
+                                <tr>
+                                  <td rowspan="27">Interface</td>
+                                  <td rowspan="9">Sistema</td>
+                                  <td>Status da conexão</td>
+                                </tr>
+                                <tr>
+                                  <td>Estatísticas</td>
+                                </tr>
+                                <tr>
+                                  <td>Gerenciamento de dispositivo</td>
+                                </tr>
+                                <tr>
+                                  <td>Gerenciamento de energia</td>
+                                </tr>
+                                <tr>
+                                  <td>App para gerenciamento de Android / iOS</td>
+                                </tr>
+                                <tr>
+                                  <td>Correspondência automática de APN de acordo com USIM</td>
+                                </tr>
+                                <tr>
+                                  <td>Conexão automática de dados</td>
+                                </tr>
+                                <tr>
+                                  <td>Gerenciamento PIN / PUK</td>
+                                </tr>
+                                <tr>
+                                  <td>Seleção do modo de rede (LTE / 5G / Auto)</td>
+                                </tr>
+                                <tr>
+                                  <td rowspan="6">Wi-Fi</td>
+                                  <td>Wi-Fi 6 (IEEE 802.11ax)</td>
+                                </tr>
+                                <tr>
+                                  <td>Modo Wi-Fi: AP / Extensor</td>
+                                </tr>
+                                <tr>
+                                  <td>Criptografia: 64/128 bit WEP, WPA/WPA2, WPA-PSK/WPA2-PSK, WPA3</td>
+                                </tr>
+                                <tr>
+                                  <td>Múltiplos SSID</td>
+                                </tr>
+                                <tr>
+                                  <td>EasyMesh: Mesh, bandsterring, SON</td>
+                                </tr>
+                                <tr>
+                                  <td>Wi-Fi SON: Handover, Bandsteering, Mesh (rede auto-organizada)</td>
+                                </tr>
+                                <tr>
+                                  <td rowspan="8">Rede</td>
+                                  <td>Modo de rede: Roteador / Bridge</td>
+                                </tr>
+                                <tr>
+                                  <td>IPv4 / IPv6 (dual-stack)</td>
+                                </tr>
+                                <tr>
+                                  <td>IP dinâmico / IP estático / PPPoE / PPTP (acesso duplo) / L2TP (acesso duplo)</td>
+                                </tr>
+                                <tr>
+                                  <td>Servidor Virtual, UPnP, DMZ, DDNS</td>
+                                </tr>
+                                <tr>
+                                  <td>DoS, Firewall SPI, Filtro de Endereço IP / Filtro de Domínio</td>
+                                </tr>
+                                <tr>
+                                  <td>Reserva de IP e MAC</td>
+                                </tr>
+                                <tr>
+                                  <td>Controle de Tráfico (IP QoS)</td>
+                                </tr>
+                                <tr>
+                                  <td>Controle de acesso, gerenciamento local, gerenciamento remoto (TR069/TR181)</td>
+                                </tr>
+                                <tr>
+                                  <td rowspan="4">Ferramentas</td>
+                                  <td>Otimização de localização</td>
+                                </tr>
+                                <tr>
+                                  <td>Teste de velocidade</td>
+                                </tr>
+                                <tr>
+                                  <td>Teste de ping (latência)</td>
+                                </tr>
+                                <tr>
+                                  <td>Diagnósticos do sistema</td>
+                                </tr>
+                                <tr>
+                                  <td rowspan="3">Meio Ambiente</td>
+                                  <td>Fonte de alimentação</td>
+                                  <td colspan="2">12V / 3A (adaptador de parede chaveado, entrada universal)</td>
+                                </tr>
+                                <tr>
+                                  <td>Temperatura de operação</td>
+                                  <td colspan="2">0ºC até 45ºC</td>
+                                </tr>
+                                <tr>
+                                  <td>Temperatura de armazenamento</td>
+                                  <td colspan="2">-20ºC até 60ºC</td>
+                                </tr>
+                                <tr>
+                                  <td>Certificação</td>
+                                  <td colspan="3">LATAM:<br> - Brasil (Anatel)<br> - Outros Países (pendente)<br>CGF (Fórum de Certificação Global)</td>
+                                </tr>
+                              </tbody>
+                              </table>
+                    </section>
+
+                    <section id="espTec" style="border-bottom: none">
+                        <h1>Dimensões e peso</h1>
+                        <p></p>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Largura</th>
+                                    <th>Altura</th>
+                                    <th>Profundidade</th>
+                                    <th>Peso</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td rowspan="1">109,5 mm</td>
+                                    <td>217 mm</td>
+                                    <td>109,5 mm</td>
+                                    <td>Bruto: 750 g</td>
+                                </tr>
+                             </tbody>
+                        </table>
+                    </section>
+
+                    <section id="produto">
+                        <h1>Produto</h1>
+
+                        <section id="VisaoFrontal">
+                            <h2>Visão Frontal.</h2>
+                            <p>A parte frontal do GX 3000 possui um sistema luminoso cuja cor pode variar, dependendo do status do produto.</p>
+                            <figure>
+                                <img src="../res/img/hw/visaofrontal.png">
+                            </figure>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>LED</th>
+                                        <th>Descição</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="1">Apagado</td>
+                                        <td>SIMCard não conectado</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="1">Ligado</td>
+                                        <td>SIMCard conectado</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="1">Vermelho</td>
+                                        <td>Sinal fraco</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="1">Vermelho piscando</td>
+                                        <td>Sem rede</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="1">Amarelo</td>
+                                        <td>Sinal médio</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="1">Branco</td>
+                                        <td>Sinal forte</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </section>
+
+                        <section id="VisaoTraseira">
+                            <h2>Visão Traseira</h2>
+                            <p>Conforme a figura, o painel traseiro contém as seguintes conexões:</p>
+                            <figure>
+                                <img src="../res/img/hw/visaotraseira.png">
+                            </figure>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Item</th>
+                                        <th>Descição</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="1">1</td>
+                                        <td>Conexão de telefone</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="1">2</td>
+                                        <td>Conexão ethernet LAN</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="1">3</td>
+                                        <td>Conexão ethernet WAN</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="1">4</td>
+                                        <td>Conexão da fonte de energia</td>
+                                    </tr>
+                                                                 
+                                </tbody>
+                            </table>
+
+                        </section>
+
+                        <section id="VisaoPosterior">
+                            <h2>Visão Posterior</h2>
+                            <p>Conforme a figura, o painel posterior contém as seguintes conexões:</p>
+                            <figure>
+                                <img src="../res/img/hw/visaoposterior.png">
+                            </figure>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Item</th>
+                                        <th>Descição</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="1">1</td>
+                                        <td>Conexão USB*</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="1">2</td>
+                                        <td>Botão de reset</td>
+                                    </tr>
+                                    <tr>
+                                        <td rawspan="1">3</td> 
+                                        <td>Conexão para o SIM Card</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <i>*A conexão é utilizada somente para testes Intelbras.</i>
+                            </section>
+
+                            
+                    <section id="opeBasica">
+                        <h1>Operação básica</h1>
+
+                        <section id="aceIntConf">
+                            <h2>Acessar a interface de configuração</h2>
+
+                            <p>1. Para ter acesso a interface de configuração do GX 3000, você precisa estar conectado ao roteador. O acesso por ser tanto via cabo na conexão na porta LAN do GX 3000, quanto via conexão Wi-Fi:</p>
+
+                            <figure class="limited">
+                                <img src="../res/img/hw/conexãowificabo.png">
+                                <figcaption>Cenário de conexão do GX 3000</figcaption>
+                            </figure>
+
+                            <p>2. Quando conectado ao roteador, você deverá receber um IP válido na rede do GX 3000. Vale ressaltar que para receber um endereço de IP válido do GX 3000, o seu dispositivo não pode estar configurado com IP estático;</p>
+
+                            <p>3. Abra o navegador de internet, ex.: Google Chrome<sup>®</sup>, e digite o endereço IP http://192.168.1.1, como mostra figura a seguir:</p>
+
+                            <figure class="limited">
+                                <img src="../res/img/hw/EnderecoLANNavegador.png">
+                                <figcaption>Endereço da Ethernet no padrão de fábrica</figcaption>
+                            </figure>
+
+                            <p>4. Será solicitado o usuário e senha de acesso ao GX 3000. O usuário será <i>admin</i>, e a senha estará na etiqueta embaixo do produto.</p>
+
+                            <figure class="limited">
+                                <img src="../res/img/hw/login.png">
+                                <figcaption>Janela de acesso a interface de configuração</figcaption>
+                            </figure>
+                            <figure class="limited">
+                                <img src="../res/img/hw/etiqueta.png">
+                                <figcaption>Exemplo da etiqueta do produto, destacado a senha.</figcaption>
+                            </figure>
+
+                            <p>Com acesso a interface de configuração do GX 3000, pode-se fazer as configurações desejadas, como por exemplo configurar o Wi-Fi e também a rede EasyMesh.
+
+                            
+                        </section>
+
+                    </section>
+
+                    <section id="duvFreq">
+                        <h1>Dúvidas frequentes</h1>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th style="min-width: 210px">Problema</th>
+                                    <th>Solução</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <!-- add -->
+                                    <td>Como fazer <em>recovery</em> da equipamento?</td>
+                                    <td>
+
+                                    <p class="high ale">Ao executar este procedimento, todas as configurações alteradas e dados gerados pelo uso do gateway serão perdidos.</p>
+
+                                    <p>O arquivo de <em>recovery</em> deve ser obtido na seção <em>downloads</em> do produto GW 208 3G no site da Intelbras. O nome desse arquivo contém a palavra <em>recover</em>. Baixe o arquivo e salve no computador. Desligue o gateway, retire os jumpers <em>CN14</em> e <em>CN34</em> para ativar o modo <em>recover</em>. Ligue o gateway novamente, aguarde cerca de 10 segundos e coloque novamente o jumper <em>CN14</em> e tente acessar através do navegador o endereço IP http://10.0.0.2 (http, sem o s). O computador deve possuir a interface de rede configurada para acessar essa classe de IP. É recomendado conectar o cabo de rede diretamente entre o computador e o gateway. Deverá ser apresentada a tela <em>Modo de recuperação</em>. A primeira etapa a ser executada é o auto-teste do <em>hardware</em>, que informa a identificação do <em>hardware</em>; testa escrita e leitura na memória; testa a porta de rede. Assim que o auto-teste for concluído, será apresentado o campo para selecionar o arquivo de <em>recovery</em>. Se a opção <em>não executar o auto-teste</em> foi selecionada, este campo será apresentado imediatamente. Localize o arquivo de <em>recovery</em> em seu computador e clique em <em>Enviar</em>. Aguarde até 10 minutos para que seja apresentado o log da operação e a mensagem <em>"OK Fim da atualização com sucesso"</em>. Assim que o procedimento for concluído, desligue o gateway, recoloque o jumper <em>CN34</em> e ligue o gateway. Aguarde o gateway inicializar observando o <em>LED</em> Status da CPU e digite, na barra de endereços do navegador, o endereço IP do gateway, por exemplo, considerando o padrão de fábrica, https://10.0.0.2 (https, com o s). Deverá ser apresentada a tela de autenticação.</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+
+                    <section id="termoGarantia">
+                        <h1>TERMO DE GARANTIA</h1>
+                        <p>Para a sua comodidade, preencha os dados abaixo, pois, somente com a apresentação deste em conjunto com a nota fiscal de compra do produto, você poderá utilizar os benefícios que lhe são assegurados.</p>
+                        <p><strong>Nome do cliente:</strong></p>
+                        <p><strong>Assinatura do cliente:</strong></p>
+                        <p><strong>Nº da nota fiscal:</strong></p>
+                        <p><strong>Data da compra:</strong></p>
+                        <p><strong>Modelo:</strong></p>
+                        <p><strong>Nº de série:</strong></p>
+                        <p><strong>Revendedor:</strong></p>
+
+                        <p>Fica expresso que esta garantia contratual é conferida mediante as seguintes condições:</p>
+
+                        <p>1. Todas as partes, peças e componentes do produto são garantidos contra eventuais vícios de fabricação, que porventura venham a apresentar, pelo prazo de 1 (um) ano – sendo este prazo de 3 (três) meses de garantia legal mais 9 (nove) meses de garantia contratual –, contado a partir da data da compra do produto pelo Senhor Consumidor, conforme consta na nota fiscal de compra do produto, que é parte integrante deste Termo em todo o território nacional. Esta garantia contratual compreende a troca de partes, peças e componentes que apresentarem vício de fabricação. Caso não seja constatado vício de fabricação, e sim vício(s) proveniente(s) de uso inadequado, o Senhor Consumidor arcará com essas despesas.
+                        </p>
+
+                        <p>2. A instalação do produto deve ser feita de acordo com o Manual do Produto e/ou Guia de Instalação. Caso seu produto necessite de instalação e configuração por um técnico capacitado, procure um profissional idôneo e especializado, sendo que os custos desses serviços não estão inclusos no valor do produto.</p>
+
+                        <p>3. Constatado o vício, o Senhor Consumidor deverá imediatamente comunicar-se com o Serviço Autorizado mais próximo que conste na relação oferecida pelo fabricante – somente estes estão autorizados a examinar e sanar o defeito durante o prazo de garantia aqui previsto. Se isso não for respeitado, esta garantia perderá sua validade, pois estará caracterizada a violação do produto.</p>
+
+                        <p>4. Na eventualidade de o Senhor Consumidor solicitar atendimento domiciliar, deverá encaminhar-se ao Serviço Autorizado mais próximo para consulta da taxa de visita técnica. Caso seja constatada a necessidade da retirada do produto, as despesas decorrentes, como as de transporte e segurança de ida e volta do produto, ficam sob a responsabilidade do Senhor Consumidor.</p>
+
+                        <p>5. A garantia perderá totalmente sua validade na ocorrência de quaisquer das hipóteses a seguir: a) se o vício não for de fabricação, mas sim causado pelo Senhor Consumidor ou por terceiros estranhos ao fabricante; b) se os danos ao produto forem oriundos de acidentes, sinistros, agentes da natureza (raios, inundações, desabamentos, etc.), umidade, tensão na rede elétrica (sobretensão provocada por acidentes ou flutuações excessivas na rede), instalação/uso em desacordo com o manual do usuário ou decorrentes do desgaste natural das partes, peças e componentes; c) se o produto tiver sofrido influência de natureza química, eletromagnética, elétrica ou animal (insetos, etc.); d) se o número de série do produto tiver sido adulterado ou rasurado; e) se o aparelho tiver sido violado.</p>
+
+                        <p>6. Esta garantia não cobre perda de dados, portanto, recomenda-se, se for o caso do produto, que o Consumidor faça uma cópia de segurança regularmente dos dados que constam no produto.</p>
+
+                        <p>7. A Intelbras não se responsabiliza pela instalação deste produto, e também por eventuais tentativas de fraudes e/ou sabotagens em seus produtos. Mantenha as atualizações do software e aplicativos utilizados em dia, se for o caso, assim como as proteções de rede necessárias para proteção contra invasões (hackers). O equipamento é garantido contra vícios dentro das suas condições normais de uso, sendo importante que se tenha ciência de que, por ser um equipamento eletrônico, não está livre de fraudes e burlas que possam interferir no seu correto funcionamento.</p>
+
+                        <p>Sendo estas as condições deste Termo de Garantia Complementar, a Intelbras S/A se reserva o direito de alterar as características gerais, técnicas e estéticas de seus produtos sem aviso prévio.</p>
+
+                        <p>Todas as imagens deste manual são ilustrativas.</p>
+
+                        <p>Produto beneficiado pela Legislação de Informática.</p>
+
+                        <p style="font-style: italic">Kingston é marca registrada da Kingston Technology Company. SanDisk é marca registrada da SanDisk Corporation. Transcend é marca registrada da Transcend Information, Inc. Firefox é uma marca registrada da Mozilla Foundation. Toshiba é uma marca registrada da Toshiba Corporation. Samsung é uma marca registrada da Samsung Electronics Co. Ltd. Panasonic é uma marca registrada da Panasonic Corporation.</p>
+                    </section>
+
+                    <section id="faleCom" class="fale-com-a-gente">
+                        <div class="div-logo-fale-com-a-gente">
+                            <img src="../res/img/intelbras_marca.svg" class="logo-itb-fale-com-a-gente">
+                        </div>
+                        <hr class="divider">
+
+                        <img src="../res/img/faleCom.jpg" class="logo-fale-com-a-gente">
+                        <div class="div-info-fale-com-a-gente">
+                            <p><strong>Suporte a clientes:</strong> (48) 2106 0006</p>
+                            <p><strong>Fórum:</strong> <a href="http://forum.intelbras.com.br" target="blank">forum.intelbras.com.br</a></p>
+                            <p><strong>Suporte via chat:</strong> <a href="http://www.intelbras.com.br/suporte-tecnico" target="blank">intelbras.com.br/suporte-tecnico</a></p>
+                            <p><strong>Suporte via e-mail</strong>: suporte@intelbras.com.br</p>
+                            <p><strong>SAC:</strong> 0800 7042767</p>
+                            <p><strong>Onde comprar? Quem instala?:</strong> 0800 7245115</p>
+                            <p>Produzido por: Intelbras S/A – Indústria de Telecomunicação Eletrônica Brasileira</p>
+                            <p>Rodovia SC 281, km 4,5 – Sertão do Maruim – São José/SC – 88122-001</p>
+                            <p><a href="http://www.intelbras.com.br" target="blank">www.intelbras.com.br</a></p>
+                            <p>Indústria Brasileira</p>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

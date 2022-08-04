@@ -1,0 +1,4 @@
+protEle		visaoFrontal
+numRam		visaoTraseira
+cpu		visaoPosterior
+aceGerWeb	aceIntConf
